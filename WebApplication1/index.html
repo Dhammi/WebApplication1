@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<!--developed by Vineet Dhammi | 300808585-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Charlie's Angel</title>
+    <!-- CSS section-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/game.css" rel="stylesheet" />
+</head>
+<body onload="main()">
+    <div id="impress">
+        <!--SLIDE 1-->
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>
+                    Once upon a time there was a king and queen who lived in a golden castle with their beautiful daughter named “Angel”. One night an ugly ogre kidnapped the beautiful princess in order to capture the kingdom.
+                    Now the king hires his special warrior “Charlie”, to kill the ugly ogre and save the princess.
+
+                    Charlie started his journey to find the princess. There are 2 ways to reach the ugly ogre dark castle. Select your option.
+                </p><br />
+                <br />
+                <p>Option 1:  Through Jungle</p>  <!--2.1 level-->
+                <p><a href="#3-left"> choose 1</a></p><br />
+                <p>Option 2: Thtough Mountains<br /></p>   <!--2.2 level-->
+                <p><a href="#3-right">choose 2</a></p>
+            </div>
+        </div>
+        <!--................LEFT SIDE.............-->
+        <div id="3-left" class="step slide" data-x="1500" data-y="1500" data-z="1500">
+            <div class="slide-text">
+                <p>
+                    Charlie got into a trouble in the Jungle. Tiger is Chasing Charlie. Now help Charlie to escape
+                </p><br />
+                <p> Option 1:  Climb the tree </p><br />
+                <p><a href="#youLose1">CHOOSE 1</a></p><br /><br />  <!--3.1 level-->
+                <p>Option 1:  Run towards river</p>
+                <p><a href="#youLose2">CHOOSE 2</a></p>   <!--3.2  level--><br />
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <!--Javascript section-->
+
+    <script src="scripts/lib/impress.js"></script>
+    <script>impress().init();</script>
+    <script src="scripts/lib/game.js"></script>
+</body>
+</html>
